@@ -1,0 +1,95 @@
+Configuration	Inbyggda-system-projekt-grupp-5
+STM32CubeMX 	4.20.1
+Date	03/11/2019
+MCU	STM32F401RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	PWM Generation CH1	TIM1_CH1	PA8
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+TIM1	PWM Generation CH3	TIM1_CH3	PA10
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH3	TIM2_CH3	PB10
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	PWM Generation CH1	TIM3_CH1	PA6
+TIM3	PWM Generation CH2	TIM3_CH2	PA7
+TIM3	PWM Generation CH3	TIM3_CH3	PB0
+TIM3	PWM Generation CH4	TIM3_CH4	PB1
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM4	PWM Generation CH4	TIM4_CH4	PB9
+TIM5	Internal Clock	TIM5_VS_ClockSourceINT	VP_TIM5_VS_ClockSourceINT
+TIM5	PWM Generation CH2	TIM5_CH2	PA1
+TIM9	Internal Clock	TIM9_VS_ClockSourceINT	VP_TIM9_VS_ClockSourceINT
+TIM10	Enable_Timer	TIM10_VS_ClockSourceINT	VP_TIM10_VS_ClockSourceINT
+TIM10	PWM Generation CH1	TIM10_CH1	PB8
+TIM11	Enable_Timer	TIM11_VS_ClockSourceINT	VP_TIM11_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART6	Asynchronous	USART6_RX	PC7
+USART6	Asynchronous	USART6_TX	PC6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+5	PH0 - OSC_IN*	RCC_OSC_IN	
+6	PH1 - OSC_OUT*	RCC_OSC_OUT	
+15	PA1	TIM5_CH2	
+16	PA2	USART2_TX	USART_TX
+17	PA3	USART2_RX	USART_RX
+21	PA5	GPIO_Output	LD2 [Green Led]
+22	PA6	TIM3_CH1	TIM3_R_MOTOR_1
+23	PA7	TIM3_CH2	TIM3_R_MOTOR_2
+26	PB0	TIM3_CH3	TIM3_L_MOTOR_1
+27	PB1	TIM3_CH4	TIM3_L_MOTOR_2
+29	PB10	TIM2_CH3	
+35	PB14	GPIO_EXTI14	buttonRight
+36	PB15	GPIO_EXTI15	buttonLeft
+37	PC6	USART6_TX	
+38	PC7	USART6_RX	
+39	PC8	GPIO_EXTI8	ECHO_HCSR04_2
+40	PC9	GPIO_EXTI9	ECHO_HCSR04
+41	PA8	TIM1_CH1	RED
+42	PA9	TIM1_CH2	GREEN
+43	PA10	TIM1_CH3	BLUE
+46	PA13*	SYS_JTMS-SWDIO	TMS
+49	PA14*	SYS_JTCK-SWCLK	TCK
+55	PB3*	SYS_JTDO-SWO	SWO
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+61	PB8	TIM10_CH1	
+62	PB9	TIM4_CH4	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Inbyggda-system-projekt-grupp-5
+Project Folder : C:\Users\Andreas Svensson\Documents\Skola\Inbyggda och mobila system\GitHub\Inbyggda-system-projekt-grupp-5
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F4 V1.16.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
